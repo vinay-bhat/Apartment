@@ -10,7 +10,7 @@ export class ItemsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  	 console.log(this.prop);
+  	 // console.log(this.prop);
   }
 
 }

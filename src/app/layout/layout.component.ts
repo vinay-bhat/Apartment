@@ -20,7 +20,7 @@ export class LayoutComponent implements OnInit {
     try {
       this.appService.getAuthors()
         .subscribe(resp => {
-          console.log(resp, "res");
+          // console.log(resp, "res");
           this.data = resp
         },
           error => {

@@ -1,0 +1,10 @@
+<div class="container layout">
+  <div class="row">
+    <div
+      *ngFor="let prop of data"
+      class="col-md-4 col-sm-12 col-xs-12 item"
+    >
+      <app-items [prop]="prop"></app-items>
+    </div>
+  </div>
+</div>

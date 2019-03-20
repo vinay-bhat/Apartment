@@ -1,0 +1,21 @@
+<div class="item">
+<div
+  class="thumbnail-img"
+  [ngStyle]="{
+    background: 'url(' + prop.imgurl + ')'
+  }"
+><p class="sale btn btn-light">Sale</p></div>
+<div class="mt-1 details">
+
+
+  <h5 class="text-left">{{ prop.name }}</h5>
+  <p class="text-left"><small>35722 / Lorem</small></p>
+  <div class="price-label">
+    <span class="price">{{ prop.price }}</span>
+    <div class="hdetails">
+      <span class="proptype1">{{ prop.roomtype }}</span>
+      <span class="proptype">{{ prop.sqfeet }}</span>
+    </div>
+  </div>
+</div>
+</div>
